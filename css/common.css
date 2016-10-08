@@ -1,0 +1,49 @@
+
+
+@font-face {
+	font-family: Proxima Nova;
+	src: url(fonts/ProximaNova.otf);
+}
+@font-face {
+	font-family: Proxima Nova Th;
+	src: url(fonts/ProximaNova-Thin.otf);
+	font-weight: Thin;
+}
+
+body {
+	background-color: #E7E7E7;
+	color: #181818;
+	overflow: hidden;
+	/*background-color: #E7E7E7;
+	color: #181818;*/
+	/*font-family: "Proxima Nova", Cabin, Helvetica, Arial, Sans-Serif;*/
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3em;
+	font-family: "Proxima Nova", Cabin, Helvetica, Arial, Sans-Serif;
+}
+
+img.image {
+	display: block;
+	width:100%;
+	max-width: 200px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+	color: inherit;
+}
+
+#footer {
+	bottom: 0;
+	height: 6em;
+	line-height: 8em;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	font-family: "Proxima Nova Th", "Proxima Nova", Cabin, Helvetica, Arial, Sans-Serif;
+}
